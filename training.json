@@ -1,0 +1,344 @@
+[
+ {
+     "TrainingID":"1",
+     "TrainingName":"Category B -  (Car/Van)",
+        "Provider":null,
+     "TrainingTypeID":"1"
+ },
+ {
+    "TrainingID":"2",
+    "TrainingName":"Category B+E - (Car/Van +Trailer)",
+    "Provider":null,
+    "TrainingTypeID":"1"
+},
+{
+    "TrainingID":"3",
+    "TrainingName":"Category C1 - (Vehicles ≤ 7500Kg)",
+    "Provider":null,
+    "TrainingTypeID":"1"
+},
+{
+    "TrainingID":"4",
+    "TrainingName":"Category C1+E",
+    "Provider":null,
+    "TrainingTypeID":"1"
+},
+{
+    "TrainingID":"5",
+    "TrainingName":"Category C - (Rigid HGV)",
+    "Provider":null,
+    "TrainingTypeID":"1"
+},
+{
+    "TrainingID":"6",
+    "TrainingName":"Category C+E - (Articulated HGV)",
+    "Provider":null,
+    "TrainingTypeID":"1"
+},
+{
+    "TrainingID":"7",
+    "TrainingName":"CPC Holder Drivers Tacho Card",
+    "Provider":null,
+    "TrainingTypeID":"1"
+},
+{
+    "TrainingID":"8",
+    "TrainingName":"HEA ECS Test",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"9",
+    "TrainingName":"JIB ECS Test",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"10",
+    "TrainingName":"Energy Utilities Skills Card",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"11",
+    "TrainingName":"Construction CSCS",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"12",
+    "TrainingName":"First Aid - Emergency (1 Day)",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"13",
+    "TrainingName":"First Aid - Workplace (3 Day)",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"14",
+    "TrainingName":"First Aid - Mental Health",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"15",
+    "TrainingName":"Moving & Handling Principles",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"16",
+    "TrainingName":"Fire Prevention",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"17",
+    "TrainingName":"Asbestos Awareness",
+    "Provider":null,
+    "TrainingTypeID":"2"
+},
+{
+    "TrainingID":"18",
+    "TrainingName":"CITB SSSTS",
+    "Provider":null,
+    "TrainingTypeID":"3"
+},
+{
+    "TrainingID":"19",
+    "TrainingName":"Supervisors Certificate CITB SMSTS",
+    "Provider":null,
+    "TrainingTypeID":"3"
+},
+{
+    "TrainingID":"20",
+    "TrainingName":"Managers Certificate",
+    "Provider":null,
+    "TrainingTypeID":"3"
+},
+{
+    "TrainingID":"21",
+    "TrainingName":"NEBOSH Construction Certificate IOSH Directing Safely",
+    "Provider":null,
+    "TrainingTypeID":"3"
+},
+{
+    "TrainingID":"22",
+    "TrainingName":"IPAF Vehicle Mounted Platform",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+{
+    "TrainingID":"23",
+    "TrainingName":"IPAF Self Propelled Boom (3b)",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+{
+    "TrainingID":"24",
+    "TrainingName":"IPAF Scissor Lift (3a)",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+{
+    "TrainingID":"25",
+    "TrainingName":"IPAf Harness Inspection (H)",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+{
+    "TrainingID":"26",
+    "TrainingName":" PASMA Mobile Scaffold",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+{
+    "TrainingID":"27",
+    "TrainingName":" Step & Ladder",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+{
+    "TrainingID":"28",
+    "TrainingName":"Work at Height Awareness",
+    "Provider":null,
+    "TrainingTypeID":"4"
+},
+
+
+]
+
+
+Plant Operations-5
+    Lorry Loader Crane / Grab	
+    Banksman	
+    360° Excavtor > 10Ton	
+    360° Excavtor < 10Ton	
+    Forward Tipping Dumper	
+    Rdse On Roller	
+    Fork Lift Truck	Abbrassive Wheels
+
+Highways and Utilities Work - 6
+NRSWA Unit 1 Location of Underground App.	
+NRSWA Unit 2 Signing Lighting & Guarding	
+NRSWA Unit 3 Excavation in the Highway	
+NRSWA Unit 4 Reinstatement of Backfill	
+NRSWA Unit 5 Reinstatement of Sub Base	
+NRSWA Unit 6 Reinstatement of Cold Lay	
+NRSWA Unit 7 Reinstatement of Hot Lay	
+NRSWA Unit 8 Reinstatement of Conc. Slabs	
+NRSWA Unit 9 Reinstatement of Mod. F/paths	
+NRSWA Unit 10 Monitoring SLG	
+NRSWA Unit 11 Monitoring Excavation	
+NRSWA Unit 12 Monitoring Backfill	
+NRSWA Unit 13  Monitoring Sub & Road Base	
+NRSWA Unit 14  Monitoring Bitumous Mats	
+NRSWA Unit 15  Monitoring Cocrete Slabs	
+NRSWA Unit 16  Monitoring Modular Footways	
+Trench Support Systems
+
+Electrical Competence -7
+Electrical C&G 236 /2330	
+Elec  C&G 2391 / 	
+Electrical  C&G 2400	
+Elect C&G 2380/403		
+AM2
+
+Vocational Qualifications-8
+
+Electrical NVQ/QCF	
+Highway Electricla NVQ/QCF	
+Construction NVQ/QCF	
+Other  
+
+Highway Electrical Sector Academy Qualifications (HESA)-9
+
+Course 101 - Health, Safety & Environment at Work	
+Course 102 - CoSHH	
+Course 103 - Electrical Safety	
+Course 104 - Manual Handling	
+Course 105 - Legislations & Standards	
+Course 106 - Emergency Procedures	
+Course 201 - Hazard Identification & Risk Assessment	
+Course 202 - Avoiding Danger from Underground Apparatus	
+Course 203 - Appreciations of Public Lighting	
+Course 204 - Hand Held Tools Drills and Screw Drivers	
+Course 205.1 - Working at Height (Steps/Ladders)	
+Course 205.2 - Working at Height (Tower Scaffold)	
+Course 205.3 - Working at Height (Working Towers)	
+Course 206.1 - MEWP Awareness	
+Course 206.2 MEWP Operator (Boom)	
+Course 206.3 MEWP Operator (Scissor)	
+Course 207 - Personal Protective Equipment	
+Course 208 - Transporting Goods	
+Course 209 - On Site Safety	
+Course 210 - G39	
+Course 211 - LMC Slinger / Signaller	
+Course 212 - LMC Oiperator	
+Course 214- Safe Isolation	
+Course 215 - Emergency Attendance	
+Course 215 - Emergency Attendance	
+course 302.1 Traffic Management	
+Course 401.1 - Basic Electrical Theory	
+Course 401.2 - Advanced Electrical Theory	
+Course 402 - Electricity at Work Regulations	
+Course 403 - BS7671:2018 IET Wiring Regulations	
+Course 501 - Erect Columns & Brackets	
+Course 502 - Remove Columns & Brackets	
+Course 503 - Realign Columns & Brackets	
+Course 504 - Install Feeder Pillars	
+Course 505 - Install Base Lit Bollards	
+Course 506 - Installation of Lanterns & Brackets	
+Course 507 - Installation of Wiring & Control Gear	
+Course 508 - Install Underground Cables	Terminate & Connect Underground Cables	
+Course 511 - Joint Underground Cables	
+Course 601  - Nightime Monitoring	
+Course 603  - Routine General Maintenance	
+Course 604 - Visual Inspection / Optical / Structural & Electrical	
+Course 605  - Remove & Replace Components	
+Course 606  - Identify and Replace Faulty Components	
+Course 608  - Operate Raise & Lower Columns	
+Course 701 - Diagnose Faults & Replace faulty components	
+Course 702 - Emergency Work	
+Course 705 - Locate faults on Underground Cable	
+Course 706 - Periodic Structural Testing	
+Course 707 - Highway Lighting Photometric Testing	
+Course 708 - Maintaining High Mast Lighting	
+Course 709 - Install High Mast Lighting	
+Course 710 - Awareness of Inspection & Testing for Witnessing	
+Course 714-Initial and  Periodic Inspection & Testing	
+Course 717 - Fundamental Inspection & Testing for Alterations	
+Sup Course 801 - Supervise Teams on Site	
+Course 802 - Set teams to work & supervise Qulaity Safety & Productivity	
+Course 805 - CDM Awareness
+
+Highway Electrical Registration Scheme Site Assessments-10
+
+Found 01- Basic Health & Saftey	
+Found 02 - Lorry Mounted Crane (Banksman)	
+Found 03 - Lorry Mounted Crane (Operator)	
+Found 04 - Power Tools	
+Found 05/1  - MEWP	
+Found 05/2 - Use of Steps of Ladders	
+Found 05/3 - Erection of Scaffold Tower	
+Found 06 Temporary Traffic Management	
+Found 07 - Working in the Vicinity of DNO  Equipment	
+Found 05/2 - Use of Steps of Ladders	
+Found 05/3 - Erection of Scaffold Tower	
+Found 06 Temporary Traffic Management	
+Found 07 - Working in the Vicinity of DNO  Equipment	
+Inst 01 - Excavate, Backfill & Reinstate	
+Inst 02 - Erect, Remove &Realign Columns & other street furniture	
+Inst 03 - Install electrical equipment and wiring only	
+Inst 04 - Install High Mast Lighting & Columns	
+Inst 05 - Install underground cables	
+Inst 06 - Terminate & Joint Cables	
+Inst 07 - Avoiding Danger from Underground Cables	
+Main 01 - Painting of Structures	
+Main 02 - Routine General Maintenance	
+Main 03 - Remove & Replace Components	
+Main 04/2 - Emergency Works	
+Main 05 Operation of Raise & Lower Columns	
+Main 06 - Maintaing High Mast Columns	
+Main 07 - Underground cable Test & Repair	
+4A - Electrical Safety in Non- Energised Testing	
+6A - Maintenance of Poles, Lanterns & Brackets	
+6E - Maintnance of Supply Tails  and Earthing	
+Rep 01- Identify and Replace Faulty Components	
+Rep 02 - Diagnise Fault on equipment & replace  faulty equipment	
+Rep 03 - Locate fault on Underground Cables	
+Insp 01 - Visual, Optical, Structural & Electrical Inspection	
+Insp 02 - Night Time Inspection	
+Test 01 - Initial Inspection & Energised Testing	
+Test 02 - Periodic Inspection & Testing	
+Test 03 - Periodic Structural Testing	
+Test 04 - Photometric Performance Testing	
+Sup 01 - Supervise Teams on Site	
+Sup 02 - Set teams to work & supervise Qulaity Safety & Productivity	
+Sup 05 - CDM Awareness
+
+NERS General & Specific Competencies-11
+
+Basic Electrical Awareness	Risk Assessment	CoSHH	
+Manual Handling	Personal Protective Equipment	
+Utility Drawing Appreciation	
+Winch Operator	
+Emergency First Aid	Plant Operator - 360	
+Plant Operator - Dumper	
+Plant Opertor - Compaction Roller	
+Jointing Authorisation  - LV Service	
+Jointing Authorisation  - LV Mains	
+Jointing Authorisation  - HV	
+Linesman - LV
+
+Training & Assessment - 12
+
+PTTLLS  Trained	
+NVQ / QCF Assessor	
+NVQ / QCF Internal Verifyer	
+HERS Authorising Officer	
+HERS Qualifying Supervisor	
+JIB HEA Invigilator	JIB ECS Invigilator
