@@ -1,0 +1,62 @@
+[
+    {
+        "ID":"1",
+        "firstname":"Justin",
+        "lastname":"Wright",
+        "dateofbirth":"01/01/1999",
+        "jobtitle":"Managing Director",
+        "email":"justin@utili-light.co.uk",
+        "password":"Admin",
+        "typeofuser":"Admin"
+    },
+    {
+        "ID":"2",
+        "firstname":"Ian",
+        "lastname":"Tidbury",
+        "dateofbirth":"01/01/1999",
+        "jobtitle":"Commercial Director",
+        "email":"ian@utili-light.co.uk",
+        "password":"Admin",
+        "typeofuser":"Admin"
+    },
+    {
+        "ID":"3",
+        "firstname":"Richard",
+        "lastname":"Bloor",
+        "dateofbirth":"01/01/1999",
+        "jobtitle":"Project Manager",
+        "email":"richard@utili-light.co.uk",
+        "password":"Admin",
+        "typeofuser":"Standard"
+    },
+    {
+        "ID":"4",
+        "firstname":"Robert",
+        "lastname":"McDermott",
+        "dateofbirth":"01/01/1999",
+        "jobtitle":"Project Manager",
+        "email":"robert@utili-light.co.uk",
+        "password":"Admin",
+        "typeofuser":"Standard"
+    },
+    {
+        "ID":"5",
+        "firstname":"Michelle",
+        "lastname":"Gates",
+        "dateofbirth":"01/01/1999",
+        "jobtitle":"Finance",
+        "email":"michelle@utili-light.co.uk",
+        "password":"Admin",
+        "typeofuser":"Standard"
+    },
+    {
+        "ID":"6",
+        "firstname":"Clare",
+        "lastname":"Wright",
+        "dateofbirth":"01/01/1999",
+        "jobtitle":"Personnel & Training",
+        "email":"clare@utili-light.co.uk",
+        "password":"Admin",
+        "typeofuser":"Admin"
+    }
+]

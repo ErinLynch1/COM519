@@ -9,7 +9,8 @@ const userSchema = new Schema(
         DOB:{type:Number,required:[true,'DOB is required']}, 
         jobtitle:{type:String,required:[true,'jobtitle is required']},
         email: { type: String, required: [true, 'email is required'], unique: true },
-        password: { type: String, required: [true, 'password is required'] }
+        password: { type: String, required: [true, 'password is required'] },
+        typeofuser:{type:String, required:[true,'type of user is required']}
     },
     { timestamps: true }
 );
