@@ -5,7 +5,7 @@ const path = require("path");
 const loading = require("loading-cli");
 
 
-const uri =  "mongodb://localhost:27017/training";
+const uri =  "mongodb+srv://Admin:CapbJKtG6tXloAp@records.ov9yy.mongodb.net/Training?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
 
 async function main() {
@@ -17,9 +17,9 @@ async function main() {
     const users = await db.collection("user").find({}).count();
     const trainingtype = await db.collection("trainingtype").find({}).count();
 
-    if (results) {
+    /*if (training) {
       db.dropDatabase();
-    }
+    }*/
 
     /**
      * This is just a fun little loader module that displays a spinner
@@ -33,7 +33,7 @@ async function main() {
 
     const trainingdata = await fs.readFile(path.join(__dirname, "training.json"), "utf8");
     const recordsdata = await fs.readFile(path.join(__dirname, "records.json"), "utf8");
-    const userdata = await fs.readFile(path.join(__dirname, "user.json"), "utf8");
+    const userdata = await fs.readFile(path.join(__dirname, "users.json"), "utf8");
     const trainingtypedata = await fs.readFile(path.join(__dirname, "trainingtype.json"), "utf8");
 
     await db.collection("training").insertMany(JSON.parse(trainingdata));
@@ -41,42 +41,6 @@ async function main() {
     await db.collection("user").insertMany(JSON.parse(userdata));
     await db.collection("trainingtype").insertMany(JSON.parse(trainingtypedata));
 
-    /**
-     * This perhaps appears a little more complex than it is. Below, we are
-     * grouping the wine tasters and summing their total tastings. Finally,
-     * we tidy up the output so it represents the format we need for our new collection
-     */
-
-    const wineTastersRef = await db.collection("tastings").aggregate([
-      { $match: { taster_name: { $ne: null } } },
-      {
-        $group: {
-          _id: "$taster_name",
-          twitter: { $first: "$taster_twitter_handle" },
-          tastings: { $sum: 1 },
-        },
-
-      },
-      {
-        $project: {
-          _id: 0,
-          name: '$_id',
-          twitter: '$twitter',
-          tastings: '$tastings'
-        },
-      },
-    ]);
-    /**
-     * Below, we output the results of our aggregate into a
-     * new collection
-     */
-    const wineTasters = await wineTastersRef.toArray();
-    await db.collection("tasters").insertMany(wineTasters);
-
-    /** This data manipulation is to reference each document in the
-     * tastings collection to a taster id. Further to this we also take the opportunity to
-     * tidy up points (converting it to a int) and regions, adding them to a an array
-     */
 
     const updatedUsersRef = db.collection("users").find({});
     const updatedUsers = await updatedUsersRef.toArray();
