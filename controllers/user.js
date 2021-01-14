@@ -33,7 +33,6 @@ exports.create = async (req, res) => {
         const user = new User({ 
             firstname = req.body.firstname,
             lastname = req.body.lastname, 
-            DOB = parseInt(req.body.DOB),
             jobtitle = req,body,jobtitle,
             email: req.body.email, 
             password: req.body.password, 

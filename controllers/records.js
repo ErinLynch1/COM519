@@ -60,7 +60,6 @@ exports.create = async (req, res) => {
       title: req.body.title,
       user_firstname: user.firstname,
       user_lastname: user.lastname,
-      user_dob = parseInt(req.body.DOB),
       user_email: user.email,
       user_id: req.body.user_id,
     })
