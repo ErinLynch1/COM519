@@ -61,8 +61,7 @@ exports.create = async (req, res) => {
       user_firstname: user.firstname,
       user_lastname: user.lastname,
       user_dob = parseInt(req.body.DOB),
-      user_email: taster.email,
-      points: parseInt(req.body.points),
+      user_email: user.email,
       user_id: req.body.user_id,
     })
 

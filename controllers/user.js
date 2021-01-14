@@ -34,8 +34,10 @@ exports.create = async (req, res) => {
             firstname = req.body.firstname,
             lastname = req.body.lastname, 
             DOB = parseInt(req.body.DOB),
+            jobtitle = req,body,jobtitle,
             email: req.body.email, 
-            password: req.body.password });
+            password: req.body.password, 
+            typeofuser : req.body.typeofuser});
         await user.save();
         res.redirect('/?message=user saved')
     } catch (e) {
