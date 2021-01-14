@@ -1,7 +1,7 @@
 const Training = require("../models/training");
 const User = require("../models/user");
 const bodyParser = require("body-parser");
-const { findById } = require("../models/User");
+const { findById } = require("../models/user");
 const records = require("../models/records");
 
 
