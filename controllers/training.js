@@ -1,4 +1,4 @@
-const Training = require("../models/Training");
+const Training = require("../models/training");
 
 exports.list = async (req, res) => {
   try {
