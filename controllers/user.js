@@ -31,9 +31,9 @@ exports.create = async (req, res) => {
     try {
 
         const user = new user({ 
-            firstname = req.body.firstname,
-            lastname = req.body.lastname, 
-            jobtitle = req,body,jobtitle,
+            firstname :req.body.firstname,
+            lastname :req.body.lastname, 
+            jobtitle :req,body,jobtitle,
             email: req.body.email, 
             password: req.body.password, 
             typeofuser : req.body.typeofuser});
