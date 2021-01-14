@@ -10,11 +10,11 @@ const recordsSchema = new Schema(
     validtodate:{type:Date,default:0},
     name_id:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
+        ref: "user"
     },
     training_id:{
         type: mongoose.Schema.Types.ObjectId,
-        ref:"Training"
+        ref:"training"
     }
   },
   { timestamps: true }

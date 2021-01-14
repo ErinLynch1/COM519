@@ -1,9 +1,9 @@
-const User = require('../models/User');
+const user = require('../models/user');
 const bcrypt = require('bcrypt');
 
 exports.login = async (req, res) => {
     try {
-        const user = await User.findOne({ email: req.body.email });
+        const user = await user.findOne({ email: req.body.email });
         if (!user) {
             res.render('login-user', { errors: { email: { message: 'email not found' } } })
             return;
@@ -30,7 +30,7 @@ exports.login = async (req, res) => {
 exports.create = async (req, res) => {
     try {
 
-        const user = new User({ 
+        const user = new user({ 
             firstname = req.body.firstname,
             lastname = req.body.lastname, 
             jobtitle = req,body,jobtitle,

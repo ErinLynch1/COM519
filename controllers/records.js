@@ -1,5 +1,5 @@
 const Training = require("../models/training");
-const User = require("../models/user");
+const user = require("../models/user");
 const bodyParser = require("body-parser");
 const { findById } = require("../models/user");
 const records = require("../models/records");
@@ -79,7 +79,7 @@ exports.create = async (req, res) => {
 exports.createView = async (req, res) => {
   try {
     const user = await user.find({});
-    res.render("create-tasting", {
+    res.render("create-training", {
       user: user,
       errors: {}
     });

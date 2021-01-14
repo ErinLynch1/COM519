@@ -1,11 +1,11 @@
-const Records = require('../models/records');
+const records = require('../models/records');
 
 exports.list = async (req, res) => {
     console.log(req.session);
     try {
 
         const totalRecords= await Records.find({}).count();
-        const userCountSummaryRef = await Users.aggregate(
+        const userCountSummaryRef = await users.aggregate(
             [
                 { $match: { user_firstname: { $ne: null } } },
                 {

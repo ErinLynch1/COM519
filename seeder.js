@@ -42,9 +42,9 @@ async function main() {
     await db.collection("trainingtype").insertMany(JSON.parse(trainingtypedata));
 
 
-    const updatedUsersRef = db.collection("users").find({});
-    const updatedUsers = await updatedUsersRef.toArray();
-    updatedUsers.forEach(async ({ _id, name }) => {
+    const updatedusersRef = db.collection("users").find({});
+    const updatedsers = await updatedusersRef.toArray();
+    updatedusers.forEach(async ({ _id, name }) => {
       await db.collection("records").updateMany({ user_name: name }, [
         {
           $set: {

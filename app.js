@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const chalk = require("chalk");
 const bodyParser = require("body-parser");
 const expressSession = require("express-session");
-const User = require("./models/user");
+const user = require("./models/user");
 
 
 /**
@@ -52,14 +52,14 @@ app.use(expressSession({ secret: 'foo barr', cookie: { expires: new Date(2534023
 app.use("*", async (req, res, next) => {
   global.user = false;
   if (req.session.userID && !global.user) {
-    const user = await User.findById(req.session.userID);
+    const user = await user.findById(req.session.userID);
     global.user = user;
   }
   next();
 })
 
 const authMiddleware = async (req, res, next) => {
-  const user = await User.findById(req.session.userID);
+  const user = await user.findById(req.session.userID);
   if (!user) {
     return res.redirect('/');
   }
