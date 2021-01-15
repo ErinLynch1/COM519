@@ -14,8 +14,6 @@
         rel="canonical"
         href="https://getbootstrap.com/docs/4.5/examples/album/"
       />
-
-      <!-- Bootstrap core CSS -->
       <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -27,40 +25,79 @@
     </head>
     <body>
       <%- include('common/header'); -%>
-      
       <div class="container">
         <h1 class="text-center">Create A New Training Record</h1>
         <div class="row justify-content-md-center">
           <div class="col-">
             <form method="POST" action="/create-taster">
               <div class="form-group">
-                <label for="name">Training Name </label>
+                <label for="name">First Name</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Enter Name"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="Enter First Name"
                 />
-
-                <% if (errors['name']) { %>
-                <p style="color: red"><%= errors['name'].message %></p>
+                <% if (errors['firstname']) { %>
+                <p style="color: red"><%= errors['firstname'].message %></p>
                 <% } %>
               </div>
               <div class="form-group">
-                <label for="name">Twitter Handle</label>
+                <label for="name">Last Name</label>
                 <input
                   type="text"
                   class="form-control"
-                  id="twitter"
-                  name="twitter"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Enter Last Name"
                 />
-                <% if (errors['twitter']) { %>
-                <p style="color: red"><%= errors['twitter'].message %></p>
+                <% if (errors['lastname']) { %>
+                <p style="color: red"><%= errors['lastname'].message %></p>
                 <% } %>
               </div>
-              
-
+              <div class="form-group">
+                <label for="name">Training name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="training"
+                  name="training"
+                  placeholder="Enter Training"
+                />
+                <% if (errors['training']) { %>
+                <p style="color: red"><%= errors['training'].message %></p>
+                <% } %>
+              </div>
+              <div class="form-group">
+                <label for="name">Training Type</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="trainingtype"
+                  name="trainingtype"
+                  placeholder="Enter Training Type"
+                />
+                <% if (errors['trainingtype']) { %>
+                <p style="color: red"><%= errors['trainingtype'].message %></p>
+                <% } %>
+              </div>
+              <div class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control" id= "validfrom" name="validfrom">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th">
+                      <input data-provide="datepicker">
+                    </span>
+                </div>
+              </div>
+              <div class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control" id= "validto" name="validto">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th">
+                      <input data-provide="datepicker">
+                    </span>
+                </div>
+              </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>

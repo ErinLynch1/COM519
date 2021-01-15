@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <meta name="description" content="" />
+      <title>Utili-Light Training</title>
+
+      <link
+        rel="canonical"
+        href="https://getbootstrap.com/docs/4.5/examples/album/"
+      />
+
+      <!-- Bootstrap core CSS -->
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous"
+      />
+
+      <link href="css/album.css" rel="stylesheet" />
+    </head>
+    <body>
+      <%- include('common/header'); -%>
+      <div class="container">
+        <h1 class="text-center">Update User</h1>
+        <div class="row justify-content-md-center">
+          <div class="col-">
+            <form method="POST">
+              <div class="form-group">
+                <label for="name">User First Name</label>
+                <input
+                  value="<%=user.firstname%>"
+                  type="text"
+                  class="form-control"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="Enter First Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">User Last Name</label>
+                <input
+                  value="<%=user.lastname%>"
+                  type="text"
+                  class="form-control"
+                  id="lastname"
+                  name="lastname"
+                  placeholder="Enter Last Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">User Job Title</label>
+                <input
+                  value="<%=user.jobtitle%>"
+                  type="text"
+                  class="form-control"
+                  id="jobtitle"
+                  name="jobtitle"
+                  placeholder="Enter Job Title"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">User Email</label>
+                <input
+                  value="<%=user.email%>"
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">User Password</label>
+                <input
+                  value="<%=user.password%>"
+                  type="text"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Type of User</label>
+                <input
+                  value="<%=user.typeofuser%>"
+                  type="text"
+                  class="form-control"
+                  id="typeofuser"
+                  name="typeofuser"
+                  placeholder="Enter Type of User"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <%- include('common/footer'); -%>
+    </body>
+  </html>
+</html>

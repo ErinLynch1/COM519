@@ -1,1 +1,96 @@
-n
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <meta name="description" content="" />
+      <title>Utili-Light Training</title>
+
+      <link
+        rel="canonical"
+        href="https://getbootstrap.com/docs/4.5/examples/album/"
+      />
+
+      <!-- Bootstrap core CSS -->
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+        crossorigin="anonymous"
+      />
+
+      <link href="css/album.css" rel="stylesheet" />
+    </head>
+    <body>
+      <%- include('common/header'); -%>
+      <div class="container">
+        <h1 class="text-center">Update User</h1>
+        <div class="row justify-content-md-center">
+          <div class="col-">
+            <form method="POST">
+              <div class="form-group">
+                <label for="name">Training Name</label>
+                <input
+                  value="<%=training.name%>"
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Enter Training"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Provider</label>
+                <input
+                  value="<%=training.provide%>"
+                  type="text"
+                  class="form-control"
+                  id="provider"
+                  name="provider"
+                  placeholder="Enter Provider"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Training Type</label>
+                <input
+                  value="<%=training.trainingtype%>"
+                  type="text"
+                  class="form-control"
+                  id="trainingtype"
+                  name="trainingtype"
+                  placeholder="Enter Training Type"
+                />
+              </div>
+              <div class="form-group">
+                <label for="name">Valid For</label>
+                <input
+                  value="<%=training.validforyear%>"
+                  type="text"
+                  class="form-control"
+                  id="trainingtype"
+                  name="trainingtype"
+                />
+                <label>Year(s)</label>
+                <input
+                value="<%=training.validformonth%>"
+                type="text"
+                class="form-control"
+                id="trainingtype"
+                name="trainingtype"
+                />
+                <label>Month(s)</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <%- include('common/footer'); -%>
+    </body>
+  </html>
+</html>
