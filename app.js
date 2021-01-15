@@ -11,10 +11,10 @@ const expressSession = require("express-session");
 /**
  * Controllers (route handlers).
  */
-const trainingController = require("./controllers/training");
-const recordsController = require("./controllers/records");
+const trainingController = require('./controllers/training');
+const recordsController = require('./controllers/records');
 //const homeController = require("./controllers/home");
-const userController = require("./controllers/user");
+const userController = require('./controllers/user');
 
 const app = express();
 app.set("view engine", "ejs");
