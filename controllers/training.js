@@ -31,7 +31,6 @@ exports.delete = async(req,res)=>{
 exports.create = async (req, res) => {
 
     try {
-      const trainingtype = await trainingtype.findById(req.body.trainingtype_id)
       await training.create({ 
         trainingname:req.body.trainingname,
         provider:req.body.provider,

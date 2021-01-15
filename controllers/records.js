@@ -2,8 +2,7 @@ const Records = require("../models/Records");
 
 exports.list = async(req,res) => {
 
-    try 
-    {
+try {
     const records = Records.find({});
     res.render("records",{records:records});
 
@@ -29,7 +28,12 @@ exports.delete = async(req,res)=>{
 exports.create = async (req, res) => {
 
     try {
-      const records = new Records({ name: req.body.name, training: req.body.training, validfromdate:req.body.validfromdate, validtodate:req.body.validtodate});
+      const records = new Records({ 
+        name: req.body.name, 
+        training: req.body.training, 
+        validfromdate:req.body.validfromdate, 
+        validtodate:req.body.validtodate
+      });
       await records.save();
       res.redirect('/records/?message=record has been created')
     } catch (e) {
