@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 const expressSession = require("express-session");
 
 
-const trainingCon =require('./controllers/training');
+const trainingCon = require('./controllers/training');
 const recordsCon= require('./controllers/records');
 const userCon = require('./controllers/user');
 
