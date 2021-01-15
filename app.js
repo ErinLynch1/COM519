@@ -14,8 +14,6 @@ const userCon = require('./controllers/user');
 const app = express();
 app.set("view engine", "ejs");
 
-
-
 const { PORT, MONGODB_URI } = process.env;
 
 
@@ -39,8 +37,6 @@ app.use(expressSession({
   resave: true,
   saveUninitialized: true 
 }))
-
-
 
 app.use("*", async (req, res, next) => {
   global.user = false;

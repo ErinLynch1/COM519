@@ -1,9 +1,9 @@
 {
-  "name": "COM519",
+  "name": "AE2-ErinLynch",
   "version": "1.0.0",
   "description": "# Link to your hosted web application. -  # Link to your hosted Git Repository  - https://github.com/ErinLynch1/COM519",
   "main":"index.js",
-  
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
