@@ -1,4 +1,4 @@
-const training = require("../models/Training");
+const training = require("/Users/erinlynch/Documents/Uni/Year_2/Database_System/Git/COM519/models/Training");
 
 exports.list = async(req,res) => {
 
