@@ -12,10 +12,10 @@ async function main() {
   try {
     await client.connect();
     const db = client.db();
-    const training = await db.collection("training").find({}).count();
-    const records = await db.collection("records").find({}).count();
-    const users = await db.collection("user").find({}).count();
-    const trainingtype = await db.collection("trainingtype").find({}).count();
+    const training = await db.collection("Training").find({}).count();
+    const records = await db.collection("Records").find({}).count();
+    const users = await db.collection("User").find({}).count();
+    const trainingtype = await db.collection("Trainingtype").find({}).count();
 
     /*if (training) {
       db.dropDatabase();
@@ -36,16 +36,16 @@ async function main() {
     const userdata = await fs.readFile(path.join(__dirname, "users.json"), "utf8");
     const trainingtypedata = await fs.readFile(path.join(__dirname, "trainingtype.json"), "utf8");
 
-    await db.collection("training").insertMany(JSON.parse(trainingdata));
-    await db.collection("records").insertMany(JSON.parse(recordsdata));
-    await db.collection("user").insertMany(JSON.parse(userdata));
-    await db.collection("trainingtype").insertMany(JSON.parse(trainingtypedata));
+    await db.collection("Training").insertMany(JSON.parse(trainingdata));
+    await db.collection("Records").insertMany(JSON.parse(recordsdata));
+    await db.collection("User").insertMany(JSON.parse(userdata));
+    await db.collection("Trainingtype").insertMany(JSON.parse(trainingtypedata));
 
 
-    const updatedusersRef = db.collection("users").find({});
-    const updatedsers = await updatedusersRef.toArray();
+    const updatedusersRef = db.collection("Users").find({});
+    const updatedusers = await updatedusersRef.toArray();
     updatedusers.forEach(async ({ _id, name }) => {
-      await db.collection("records").updateMany({ user_name: name }, [
+      await db.collection("Records").updateMany({ user_name: name }, [
         {
           $set: {
             user_id: _id,
@@ -61,7 +61,7 @@ async function main() {
      * placed them in an array
      */
     await db
-      .collection("users")
+      .collection("Users")
       .updateMany({}, { $unset: { firstname: "", lastname: " " } });
 
     load.stop();
