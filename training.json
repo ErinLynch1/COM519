@@ -1,1059 +1,901 @@
 [
  {
-     "TrainingID":"1",
      "TrainingName":"Category B -  (Car/Van)",
-        "Provider":null,
-     "TrainingTypeID":"1"
+    "Provider":null,
+     "Trainingtype": "Driving License"
  },
  {
-    "TrainingID":"2",
     "TrainingName":"Category B+E - (Car/Van +Trailer)",
     "Provider":null,
-    "TrainingTypeID":"1"
+    "Trainingtype": "Driving License"
 },
 {
-    "TrainingID":"3",
     "TrainingName":"Category C1 - (Vehicles ≤ 7500Kg)",
     "Provider":null,
-    "TrainingTypeID":"1"
+    "Trainingtype": "Driving License"
 },
 {
-    "TrainingID":"4",
     "TrainingName":"Category C1+E",
     "Provider":null,
-    "TrainingTypeID":"1"
+    "Trainingtype": "Driving License"
 },
 {
-    "TrainingID":"5",
+ 
     "TrainingName":"Category C - (Rigid HGV)",
     "Provider":null,
-    "TrainingTypeID":"1"
+    "Trainingtype": "Driving License"
 },
 {
-    "TrainingID":"6",
+    
     "TrainingName":"Category C+E - (Articulated HGV)",
     "Provider":null,
-    "TrainingTypeID":"1"
+    "Trainingtype": "Driving License"
 },
 {
-    "TrainingID":"7",
     "TrainingName":"CPC Holder Drivers Tacho Card",
     "Provider":null,
-    "TrainingTypeID":"1"
+    "Trainingtype": "Driving License"
 },
 {
-    "TrainingID":"8",
     "TrainingName":"HEA ECS Test",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"9",
     "TrainingName":"JIB ECS Test",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"10",
     "TrainingName":"Energy Utilities Skills Card",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"11",
     "TrainingName":"Construction CSCS",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"12",
     "TrainingName":"First Aid - Emergency (1 Day)",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"13",
     "TrainingName":"First Aid - Workplace (3 Day)",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"14",
     "TrainingName":"First Aid - Mental Health",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"15",
     "TrainingName":"Moving & Handling Principles",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"16",
     "TrainingName":"Fire Prevention",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"17",
+
     "TrainingName":"Asbestos Awareness",
     "Provider":null,
-    "TrainingTypeID":"2"
+    "Trainingtype": "Basic Site Safety"
 },
 {
-    "TrainingID":"18",
     "TrainingName":"CITB SSSTS",
     "Provider":null,
-    "TrainingTypeID":"3"
+    "Trainingtype": "Safety Management"
 },
 {
-    "TrainingID":"19",
     "TrainingName":"Supervisors Certificate CITB SMSTS",
     "Provider":null,
-    "TrainingTypeID":"3"
+    "Trainingtype": "Safety Management"
 },
 {
-    "TrainingID":"20",
     "TrainingName":"Managers Certificate",
     "Provider":null,
-    "TrainingTypeID":"3"
+    "Trainingtype": "Safety Management"
 },
 {
-    "TrainingID":"21",
     "TrainingName":"NEBOSH Construction Certificate IOSH Directing Safely",
     "Provider":null,
-    "TrainingTypeID":"3"
+    "Trainingtype": "Safety Management"
 },
 {
-    "TrainingID":"22",
+    
     "TrainingName":"IPAF Vehicle Mounted Platform",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"23",
     "TrainingName":"IPAF Self Propelled Boom (3b)",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"24",
     "TrainingName":"IPAF Scissor Lift (3a)",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"25",
     "TrainingName":"IPAf Harness Inspection (H)",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"26",
     "TrainingName":" PASMA Mobile Scaffold",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"27",
     "TrainingName":" Step & Ladder",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"28",
     "TrainingName":"Work at Height Awareness",
     "Provider":null,
-    "TrainingTypeID":"4"
+    "Trainingtype": "Work at Height"
 },
 {
-    "TrainingID":"29",
     "TrainingName":"Lorry Loader Crane / Grab",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"30",
     "TrainingName":"Banksman",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"31",
     "TrainingName":"360° Excavtor > 10Ton",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"31",
     "TrainingName":"360° Excavtor < 10Ton",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"31",
     "TrainingName":"Forward Tipping Dumper",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"31",
     "TrainingName":"Rdse On Roller",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"31",
     "TrainingName":"Rdse On Roller",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"32",
     "TrainingName":"Fork Lift Truck",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"33",
     "TrainingName":"Abbrassive Wheels",
     "Provider":null,
-    "TrainingTypeID":"5"
+    "Trainingtype": "Plant Operations"
 },
 {
-    "TrainingID":"34",
     "TrainingName":"NRSWA Unit 1 Location of Underground App",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"35",
     "TrainingName":"NRSWA Unit 2 Signing Lighting & Guarding",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"36",
     "TrainingName":"NRSWA Unit 3 Excavation in the Highway",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"37",
     "TrainingName":"NRSWA Unit 4 Reinstatement of Backfill",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"38",
     "TrainingName":"NRSWA Unit 5 Reinstatement of Sub Base",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"39",
     "TrainingName":"NRSWA Unit 6 Reinstatement of Cold Lay",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"40",
     "TrainingName":"NRSWA Unit 7 Reinstatement of Hot Lay",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"41",
     "TrainingName":"NRSWA Unit 8 Reinstatement of Conc. Slabs",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"42",
     "TrainingName":"NRSWA Unit 9 Reinstatement of Mod. F/paths",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"43",
     "TrainingName":"NRSWA Unit 10 Monitoring SLG",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"44",
     "TrainingName":"NRSWA Unit 11 Monitoring Excavation",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"45",
     "TrainingName":"NRSWA Unit 12 Monitoring Backfill",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"46",
     "TrainingName":"NRSWA Unit 13  Monitoring Sub & Road Base",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"47",
     "TrainingName":"NRSWA Unit 14  Monitoring Bitumous Mats",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"48",
     "TrainingName":"NRSWA Unit 15  Monitoring Cocrete Slabs",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"49",
     "TrainingName":"NRSWA Unit 16  Monitoring Modular Footways",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"50",
     "TrainingName":"Trench Support Systems",
     "Provider":null,
-    "TrainingTypeID":"6"
+    "Trainingtype": "Highways and Utilities Work"
 },
 {
-    "TrainingID":"51",
     "TrainingName":"Electrical C&G 236 /2330",
     "Provider":null,
-    "TrainingTypeID":"7"
+    "Trainingtype": "Electrical Competence"
 },
 {
-    "TrainingID":"52",
     "TrainingName":"Elec  C&G 2391 / ",
     "Provider":null,
-    "TrainingTypeID":"7"
+    "Trainingtype": "Electrical Competence"
 },
 {
-    "TrainingID":"53",
     "TrainingName":"Electrical  C&G 2400",
     "Provider":null,
-    "TrainingTypeID":"7"
+    "Trainingtype": "Electrical Competence"
 },
 {
-    "TrainingID":"54",
     "TrainingName":"Elect C&G 2380/403",
     "Provider":null,
-    "TrainingTypeID":"7"
+    "Trainingtype": "Electrical Competence"
 },
 {
-    "TrainingID":"55",
     "TrainingName":"AM2",
     "Provider":null,
-    "TrainingTypeID":"7"
+    "Trainingtype": "Electrical Competence"
 },
 {
-    "TrainingID":"56",
     "TrainingName":"Electrical NVQ/QCF",
     "Provider":null,
-    "TrainingTypeID":"8"
+    "Trainingtype": "Vocational Qualifications"
 },
 {
-    "TrainingID":"57",
     "TrainingName":"Highway Electricla NVQ/QCF",
     "Provider":null,
-    "TrainingTypeID":"8"
+    "Trainingtype": "Vocational Qualifications"
 },
 {
-    "TrainingID":"58",
     "TrainingName":"Construction NVQ/QCF",
     "Provider":null,
-    "TrainingTypeID":"8"
+    "Trainingtype": "Vocational Qualifications"
 },
 {
-    "TrainingID":"59",
     "TrainingName":"Other",
     "Provider":null,
-    "TrainingTypeID":"8"
+    "Trainingtype": "Vocational Qualifications"
 },
 {
-    "TrainingID":"60",
     "TrainingName":"Course 101 - Health, Safety & Environment at Work",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"61",
     "TrainingName":"Course 102 - CoSHH",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"62",
     "TrainingName":"Course 103 - Electrical Safety",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"63",
     "TrainingName":"Course 104 - Manual Handling",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"64",
     "TrainingName":"Course 105 - Legislations & Standards",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"65",
     "TrainingName":"Course 106 - Emergency Procedures",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"66",
     "TrainingName":"Course 201 - Hazard Identification & Risk Assessment",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"67",
     "TrainingName":"Course 202 - Avoiding Danger from Underground Apparatus",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"68",
     "TrainingName":"Course 203 - Appreciations of Public Lighting",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"69",
     "TrainingName":"Course 204 - Hand Held Tools Drills and Screw Drivers",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"70",
     "TrainingName":"Course 205.1 - Working at Height (Steps/Ladders)",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"71",
     "TrainingName":"Course 205.2 - Working at Height (Tower Scaffold)",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"72",
     "TrainingName":"Course 205.3 - Working at Height (Working Towers)",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"73",
     "TrainingName":"Course 206.1 - MEWP Awareness",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"74",
     "TrainingName":"Course 206.2 MEWP Operator (Boom)",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"75",
     "TrainingName":"Course 206.3 MEWP Operator (Scissor)",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"76",
     "TrainingName":"Course 207 - Personal Protective Equipment",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"77",
     "TrainingName":"Course 208 - Transporting Goods",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"78",
     "TrainingName":"Course 209 - On Site Safety",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"79",
     "TrainingName":"Course 210 - G39",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"80",
     "TrainingName":"Course 211 - LMC Slinger / Signaller",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"81",
     "TrainingName":"Course 212 - LMC Oiperator",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"82",
     "TrainingName":"Course 214- Safe Isolation",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"83",
     "TrainingName":"Course 215 - Emergency Attendance",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"84",
     "TrainingName":"course 302.1 Traffic Management",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"85",
     "TrainingName":"Course 401.1 - Basic Electrical Theory",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"86",
     "TrainingName":"Course 401.2 - Advanced Electrical Theory",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"87",
     "TrainingName":"Course 402 - Electricity at Work Regulations",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"88",
     "TrainingName":"Course 403 - BS7671:2018 IET Wiring Regulations",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"89",
     "TrainingName":"Course 501 - Erect Columns & Brackets",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"90",
     "TrainingName":"Course 502 - Remove Columns & Brackets",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"91",
     "TrainingName":"Course 503 - Realign Columns & Brackets",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"92",
     "TrainingName":"Course 504 - Install Feeder Pillars",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"93",
     "TrainingName":"Course 505 - Install Base Lit Bollards",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"94",
     "TrainingName":"Course 506 - Installation of Lanterns & Brackets",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"95",
     "TrainingName":"Course 507 - Installation of Wiring & Control Gear",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"96",
     "TrainingName":"Course 508 - Install Underground Cables Terminate & Connect Underground Cables",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"97",
     "TrainingName":"Course 511 - Joint Underground Cable",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"98",
     "TrainingName":"Course 601  - Nightime Monitoring",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"99",
     "TrainingName":"Course 603  - Routine General Maintenance",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"100",
     "TrainingName":"Course 604 - Visual Inspection / Optical / Structural & Electrical",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"101",
     "TrainingName":"Course 605  - Remove & Replace Components",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"102",
     "TrainingName":"Course 606  - Identify and Replace Faulty Components",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"103",
     "TrainingName":"Course 608  - Operate Raise & Lower Columns",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"104",
     "TrainingName":"Course 701 - Diagnose Faults & Replace faulty components",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"105",
     "TrainingName":"Course 702 - Emergency Work",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"106",
     "TrainingName":"Course 705 - Locate faults on Underground Cable",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"107",
     "TrainingName":"Course 706 - Periodic Structural Testing",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"108",
     "TrainingName":"Course 707 - Highway Lighting Photometric Testing",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"109",
     "TrainingName":"Course 708 - Maintaining High Mast Lighting",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"110",
     "TrainingName":"Course 709 - Install High Mast Lighting",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"111",
     "TrainingName":"Course 710 - Awareness of Inspection & Testing for Witnessing",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"112",
     "TrainingName":"Course 714-Initial and  Periodic Inspection & Testing",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"113",
     "TrainingName":"Course 717 - Fundamental Inspection & Testing for Alterations",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"114",
     "TrainingName":"Sup Course 801 - Supervise Teams on Site",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"115",
     "TrainingName":"Course 802 - Set teams to work & supervise Qulaity Safety & Productivity",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"116",
+
+
     "TrainingName":"Course 805 - CDM Awareness",
     "Provider":null,
-    "TrainingTypeID":"9"
+    "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)"
 },
 {
-    "TrainingID":"117",
     "TrainingName":"Found 01- Basic Health & Saftey",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"118",
     "TrainingName":"Found 02 - Lorry Mounted Crane (Banksman)",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"119",
     "TrainingName":"Found 03 - Lorry Mounted Crane (Operator)",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"120",
     "TrainingName":"Found 04 - Power Tools",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"121",
     "TrainingName":"Found 05/1  - MEWP",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"122",
     "TrainingName":"Found 05/2 - Use of Steps of Ladders",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"123",
     "TrainingName":"Found 05/3 - Erection of Scaffold Tower",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"124",
     "TrainingName":"Found 06 Temporary Traffic Management",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"125",
     "TrainingName":"Found 07 - Working in the Vicinity of DNO  Equipment",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"126",
     "TrainingName":"Inst 01 - Excavate, Backfill & Reinstate",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"127",
     "TrainingName":"Inst 02 - Erect, Remove &Realign Columns & other street furniture",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"128",
     "TrainingName":"Inst 03 - Install electrical equipment and wiring only",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"129",
     "TrainingName":"Inst 04 - Install High Mast Lighting & Columns",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"130",
     "TrainingName":"Inst 05 - Install underground cables",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"131",
+
     "TrainingName":"Inst 06 - Terminate & Joint Cables",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"132",
+
     "TrainingName":"Inst 07 - Avoiding Danger from Underground Cables",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"133",
+
     "TrainingName":"Main 01 - Painting of Structures",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"134",
+
     "TrainingName":"Main 02 - Routine General Maintenance",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"135",
     "TrainingName":"Main 03 - Remove & Replace Components",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"136",
+
     "TrainingName":"Main 04/2 - Emergency Works",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"137",
+
     "TrainingName":"Main 05 Operation of Raise & Lower Columns",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"138",
     "TrainingName":"Main 06 - Maintaing High Mast Columns",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"139",
     "TrainingName":"Main 07 - Underground cable Test & Repair",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"140",
     "TrainingName":"4A - Electrical Safety in Non- Energised Testing",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"141",
     "TrainingName":"6A - Maintenance of Poles, Lanterns & Brackets",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"142",
     "TrainingName":"6E - Maintnance of Supply Tails  and Earthing",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"143",
+
     "TrainingName":"Rep 01- Identify and Replace Faulty Components",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"144",
+
     "TrainingName":"Rep 02 - Diagnise Fault on equipment & replace faulty equipment",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"145",
+  
     "TrainingName":"Rep 03 - Locate fault on Underground Cables",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"146",
+
     "TrainingName":"Insp 01 - Visual, Optical, Structural & Electrical Inspection",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"147",
+
     "TrainingName":"Insp 02 - Night Time Inspection",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"148",
     "TrainingName":"Test 01 - Initial Inspection & Energised Testing",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"149",
     "TrainingName":"Test 02 - Periodic Inspection & Testing",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"150",
     "TrainingName":"Test 03 - Periodic Structural Testing",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"151",
     "TrainingName":"Test 04 - Photometric Performance Testing",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"152",
     "TrainingName":"Sup 01 - Supervise Teams on Site",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"153",
     "TrainingName":"Sup 02 - Set teams to work & supervise Qulaity Safety & Productivity",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"154",
     "TrainingName":"Sup 05 - CDM Awareness",
     "Provider":null,
-    "TrainingTypeID":"10"
+    "Trainingtype": "Highway Electrical Registration Scheme Site Assessments"
 },
 {
-    "TrainingID":"155",
     "TrainingName":"Basic Electrical Awareness Risk Assessment CoSHH",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"156",
     "TrainingName":"Manual Handling Personal Protective Equipment",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"157",
     "TrainingName":"Utility Drawing Appreciation",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"158",
     "TrainingName":"Winch Operator",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"159",
     "TrainingName":"Emergency First Aid Plant Operator - 360",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"160",
     "TrainingName":"Plant Operator - Dumper",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"161",
     "TrainingName":"Plant Opertor - Compaction Roller",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"162",
     "TrainingName":"Jointing Authorisation  - LV Service",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"163",
     "TrainingName":"Jointing Authorisation  - LV Mains",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"164",
     "TrainingName":"Jointing Authorisation  - HV",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"165",
+
     "TrainingName":"Linesman - LV",
     "Provider":null,
-    "TrainingTypeID":"11"
+    "Trainingtype": "NERS General & Specific Competencies"
 },
 {
-    "TrainingID":"166",
     "TrainingName":"PTTLLS  Trained",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 },
 {
-    "TrainingID":"167",
     "TrainingName":"NVQ / QCF Assessor",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 },
 {
-    "TrainingID":"168",
     "TrainingName":"NVQ / QCF Internal Verifyer",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 },
 {
-    "TrainingID":"169",
     "TrainingName":"HERS Authorising Officer",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 },
 {
-    "TrainingID":"170",
     "TrainingName":"HERS Qualifying Supervisor",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 },
 {
-    "TrainingID":"171",
     "TrainingName":"JIB HEA Invigilator",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 },
 {
-    "TrainingID":"172",
     "TrainingName":"JIB ECS Invigilator",
     "Provider":null,
-    "TrainingTypeID":"12"
+    "Trainingtype": "Training & Assessment"
 }
 ]
 		

@@ -1,105 +1,68 @@
-const Training = require("../models/training");
-const user = require("../models/user");
-const bodyParser = require("body-parser");
-const { findById } = require("../models/user");
-const records = require("../models/records");
+const Records = require('../models/Records');
 
+exports.list = async(req,res) => {
 
-exports.list = async (req, res) => {
-  const perPage = 10;
-  const limit = parseInt(req.query.limit) || 10; // Make sure to parse the limit to number
-  const page = parseInt(req.query.page) || 1;
-  const message = req.query.message;
+    try 
+    {
+    const records = Records.find({});
+    res.render("records",{records:records});
 
-
-  try {
-    const records = await records.find({}).skip((perPage * page) - perPage).limit(limit);
-    const count = await records.find({}).count();
-    const numberOfPages = Math.ceil(count / perPage);
-
-    res.render("records", {
-      records: records,
-      numberOfPages: numberOfPages,
-      currentPage: page,
-      message: message
-    });
-  } catch (e) {
-    res.status(404).send({ message: "could not list any records" });
-  }
+    }catch(e){
+    res.status(404).send ({ message: "could not list records" });
+    } 
 };
 
-exports.edit = async (req, res) => {
-  const id = req.params.id;
+
+exports.delete = async(req,res)=>{
+    const id = req.params.id;
   try {
-    const user = await user.find({});
-    const training = await traing.findById(id);
-    if (!record) throw Error('cant find record');
-    res.render('update-record', {
-      user: user,
-      training: training,
-      id: id,
-      errors: {}
-    });
-  } catch (e) {
-    console.log(e)
-    if (e.errors) {
-      res.render('create-record', { errors: e.errors })
-      return;
-    }
-    res.status(404).send({
-      message: `could find taster ${id}`,
-    });
-  }
-};
-
-exports.create = async (req, res) => {
-  try {
-
-    const user = await user.findById(req.body.user_id);
-    await Tasting.create({
-      title: req.body.title,
-      user_firstname: user.firstname,
-      user_lastname: user.lastname,
-      user_email: user.email,
-      user_id: req.body.user_id,
-    })
-
-    res.redirect('/records/?message=a record has been created')
-  } catch (e) {
-    if (e.errors) {
-      res.render('create-record', { errors: e.errors })
-      return;
-    }
-    return res.status(400).send({
-      message: JSON.parse(e),
-    });
-  }
-}
-
-exports.createView = async (req, res) => {
-  try {
-    const user = await user.find({});
-    res.render("create-training", {
-      user: user,
-      errors: {}
-    });
-
-  } catch (e) {
-    res.status(404).send({
-      message: `could not generate create data`,
-    });
-  }
-}
-
-exports.delete = async (req, res) => {
-  const id = req.params.id;
-  try {
-    await records.findByIdAndRemove(id);
+    await Records.findByIdAndRemove(id);
     res.redirect("/records");
   } catch (e) {
     res.status(404).send({
-      message: `could not delete  record ${id}.`,
+      message: `could not delete record ${id}.`,
     });
   }
 };
 
+
+exports.create = async (req, res) => {
+
+    try {
+      const records = new Records({ name: req.body.name, training: req.body.training, validfromdate:req.body.validfromdate, validtodate:req.body.validtodate});
+      await records.save();
+      res.redirect('/records/?message=record has been created')
+    } catch (e) {
+      if (e.errors) {
+        console.log(e.errors);
+        res.render('create-record', { errors: e.errors })
+        return;
+      }
+      return res.status(400).send({
+        message: JSON.parse(e),
+      });
+    }
+  }
+  exports.edit = async (req, res) => {
+    const id = req.params.id;
+    try {
+      const records = await Records.findById(id);
+      res.render('update-records', { records: records, id: id });
+    } catch (e) {
+      res.status(404).send({
+        message: `could find record ${id}.`,
+      });
+    }
+  };
+  
+  exports.update = async (req, res) => {
+    const id = req.params.id;
+    try {
+      const records = await Records.updateOne({ _id: id }, req.body);
+      res.redirect('/records/?message=record has been updated');
+    } catch (e) {
+      res.status(404).send({
+        message: `could find record ${id}.`,
+      });
+    }
+  };

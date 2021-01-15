@@ -1,52 +1,76 @@
-const user = require('../models/user');
-const bcrypt = require('bcrypt');
-
-exports.login = async (req, res) => {
-    try {
-        const user = await user.findOne({ email: req.body.email });
-        if (!user) {
-            res.render('login-user', { errors: { email: { message: 'email not found' } } })
-            return;
-        }
-
-        const match = await bcrypt.compare(req.body.password, user.password);
-        if (match) {
-            req.session.userID = user._id;
-            console.log(req.session.userID);
-            res.redirect('/');
-            return
-        }
-
-        res.render('login-user', { errors: { password: { message: 'password does not match' } } })
+const User = require('../models/User');
 
 
-    } catch (e) {
-        return res.status(400).send({
-            message: JSON.parse(e),
-        });
-    }
-}
+exports.list = async(req,res) => {
+
+    try 
+    {
+    const user = User.find({});
+    res.render("user",{user:user});
+
+    }catch(e){
+    res.status(404).send ({ message: "could not list user" });
+    } 
+};
+
+
+exports.delete = async(req,res)=>{
+    const id = req.params.id;
+  try {
+    await user.findByIdAndRemove(id);
+    res.redirect("/user");
+  } catch (e) {
+    res.status(404).send({
+      message: `could not delete user ${id}.`,
+    });
+  }
+};
+
 
 exports.create = async (req, res) => {
-    try {
 
-        const user = new user({ 
-            firstname :req.body.firstname,
-            lastname :req.body.lastname, 
-            jobtitle :req,body,jobtitle,
-            email: req.body.email, 
-            password: req.body.password, 
-            typeofuser : req.body.typeofuser});
-        await user.save();
-        res.redirect('/?message=user saved')
+    try {
+      const user = new User({
+        firstname: req.body.firstname,
+        lastname:req.body.lastname,
+        jobtitle:req.body.jobtitle,
+        email: req.body.email,
+        password: req.body.password,
+        typeofuser:req.body.typeofuser
+      });
+      await user.save();
+      res.redirect('/user/?message=user has been created')
     } catch (e) {
-        if (e.errors) {
-            console.log(e.errors);
-            res.render('create-user', { errors: e.errors })
-            return;
-        }
-        return res.status(400).send({
-            message: JSON.parse(e),
-        });
+      if (e.errors) {
+        console.log(e.errors);
+        res.render('create-user', { errors: e.errors })
+        return;
+      }
+      return res.status(400).send({
+        message: JSON.parse(e),
+      });
     }
-}
+  }
+  exports.edit = async (req, res) => {
+    const id = req.params.id;
+    try {
+      const user = await User.findById(id);
+      res.render('update-user', { user: user, id: id });
+    } catch (e) {
+      res.status(404).send({
+        message: `could find user ${id}.`,
+      });
+    }
+  };
+  
+  exports.update = async (req, res) => {
+    const id = req.params.id;
+    try {
+      const user = await User.updateOne({ _id: id }, req.body);
+      res.redirect('/user/?message=user has been updated');
+    } catch (e) {
+      res.status(404).send({
+        message: `could find user ${id}.`,
+      });
+    }
+  };

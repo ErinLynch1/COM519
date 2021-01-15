@@ -1,6 +1,5 @@
 [
     {
-        "ID":"1",
         "firstname":"Justin",
         "lastname":"Wright",
         "jobtitle":"Managing Director",
@@ -9,7 +8,6 @@
         "typeofuser":"Admin"
     },
     {
-        "ID":"2",
         "firstname":"Ian",
         "lastname":"Tidbury",
         "jobtitle":"Commercial Director",
@@ -18,7 +16,6 @@
         "typeofuser":"Admin"
     },
     {
-        "ID":"3",
         "firstname":"Richard",
         "lastname":"Bloor",
         "jobtitle":"Project Manager",
@@ -27,7 +24,6 @@
         "typeofuser":"Standard"
     },
     {
-        "ID":"4",
         "firstname":"Robert",
         "lastname":"McDermott",
         "jobtitle":"Project Manager",
@@ -36,7 +32,6 @@
         "typeofuser":"Standard"
     },
     {
-        "ID":"5",
         "firstname":"Michelle",
         "lastname":"Gates",
         "jobtitle":"Finance",
@@ -45,7 +40,6 @@
         "typeofuser":"Standard"
     },
     {
-        "ID":"6",
         "firstname":"Clare",
         "lastname":"Wright",
         "jobtitle":"Personnel & Training",

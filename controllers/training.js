@@ -1,26 +1,27 @@
-const Training = require("../models/training");
+const Training = require('../models/Training');
+const TrainingType = require('../models/Trainingtype')
 
-exports.list = async (req, res) => {
-  try {
-    console.log(req.query)
-    const message = req.query.message;
-    const training = await training.find({});
-    res.render("training", { training: training, message: message });
-  } catch (e) {
-    res.status(404).send({ message: "could not list training" });
-  }
+exports.list = async(req,res) => {
+
+    try 
+    {
+    const training = Training.find({});
+    res.render("training",{training:training});
+
+    }catch(e){
+    res.status(404).send ({ message: "could not list Training" });
+    } 
 };
 
-exports.delete = async (req, res) => {
-  const id = req.params.id;
 
+exports.delete = async(req,res)=>{
+    const id = req.params.id;
   try {
-
     await training.findByIdAndRemove(id);
     res.redirect("/training");
   } catch (e) {
     res.status(404).send({
-      message: `could not delete  record ${id}.`,
+      message: `could not delete record ${id}.`,
     });
   }
 };
@@ -28,46 +29,47 @@ exports.delete = async (req, res) => {
 
 exports.create = async (req, res) => {
 
-  try {
-    const training = new training({ 
-        name: req.body.name, 
-        provider: req.body.provider, 
-        validfor : parseInt(req.body.validfor)
-    });
-    await training.save();
-    res.redirect('/training/?message=a new training record has been created')
-  } catch (e) {
-    if (e.errors) {
-      console.log(e.errors);
-      res.render('create-training ', { errors: e.errors })
-      return;
+    try {
+      const trainingtype = await trainingtype.findById(req.body.trainingtype_id)
+      await Training.create({ 
+        trainingname:req.body.trainingname,
+        provider:req.body.provider,
+        trainingtype: trainingtype.type,
+        validforyear:req.body.validforyear,
+        validformonth:req.body.validformonth
+      })
+      res.redirect('/training/?message=training record has been created')
+    } catch (e) {
+      if (e.errors) {
+        console.log(e.errors);
+        res.render('create-training', { errors: e.errors })
+        return;
+      }
+      return res.status(400).send({
+        message: JSON.parse(e),
+      });
     }
-    return res.status(400).send({
-      message: JSON.parse(e),
-    });
   }
-}
-
-exports.edit = async (req, res) => {
-  const id = req.params.id;
-  try {
-    const training = await training.findById(id);
-    res.render('update-training', { taster: taster, id: id });
-  } catch (e) {
-    res.status(404).send({
-      message: `could find training ${id}.`,
-    });
-  }
-};
-
-exports.update = async (req, res) => {
-  const id = req.params.id;
-  try {
-    const training = await training.updateOne({ _id: id }, req.body);
-    res.redirect('/training/?message=training has been updated');
-  } catch (e) {
-    res.status(404).send({
-      message: `could find training ${id}.`,
-    });
-  }
-};
+  exports.edit = async (req, res) => {
+    const id = req.params.id;
+    try {
+      const training = await Training.findById(id);
+      res.render('update-training', { training: training, id: id });
+    } catch (e) {
+      res.status(404).send({
+        message: `could find training ${id}.`,
+      });
+    }
+  };
+  
+  exports.update = async (req, res) => {
+    const id = req.params.id;
+    try {
+      const training = await Training.updateOne({ _id: id }, req.body);
+      res.redirect('/training/?message=training has been updated');
+    } catch (e) {
+      res.status(404).send({
+        message: `could find training ${id}.`,
+      });
+    }
+  };
