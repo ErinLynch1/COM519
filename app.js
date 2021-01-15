@@ -7,27 +7,17 @@ const bodyParser = require("body-parser");
 const expressSession = require("express-session");
 
 
-
-/**
- * Controllers (route handlers).
- */
 const trainingCon = require('./controllers/training');
 const recordsCon= require('./controllers/records');
-//const homeController = require("./controllers/home");
 const userCon = require('./controllers/user');
 
 const app = express();
 app.set("view engine", "ejs");
 
-/**
- * notice above we are using dotenv. We can now pull the values from our environment
- */
+
 
 const { PORT, MONGODB_URI } = process.env;
 
-/**
- * connect to database
- */
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 mongoose.connection.on("error", (err) => {
@@ -39,9 +29,6 @@ mongoose.connection.on("error", (err) => {
   process.exit();
 });
 
-/***
- * We are applying our middlewear
- */
 app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -71,14 +58,6 @@ const authMiddleware = async (req, res, next) => {
   }
   next()
 }
-
-//app.get("/", homeController.list);
-
-/*app.get("/logout", async (req, res) => {
-  req.session.destroy();
-  global.user = false;
-  res.redirect('/');
-})*/
 
 app.get("/create-training", authMiddleware, (req, res) => {
   res.render("create-training", { errors: {} });
@@ -113,17 +92,6 @@ app.get("/records", userCon.list);
 app.get("/records/delete/:id", userCon.delete);
 app.get("/records/update/:id", userCon.edit);
 app.post("/records/update/:id", userCon.update);
-
-/*app.get("/join", (req, res) => {
-  res.render('create-user', { errors: {} })
-});
-
-app.post("/join", userController.create);
-app.get("/login", (req, res) => {
-  res.render('login-user', { errors: {} })
-});
-app.post("/login", userController.login);
-*/
 
 app.listen(PORT, () => {
   console.log(
