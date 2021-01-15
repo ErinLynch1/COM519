@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const chalk = require("chalk");
 const bodyParser = require("body-parser");
 const expressSession = require("express-session");
-const user = require("./models/user");
+const user = require("./models/User");
 
 
 /**
@@ -13,7 +13,7 @@ const user = require("./models/user");
  */
 const trainingController = require("./controllers/training");
 const recordsController = require("./controllers/records");
-const homeController = require("./controllers/home");
+//const homeController = require("./controllers/home");
 const userController = require("./controllers/user");
 
 const app = express();
@@ -72,13 +72,13 @@ const authMiddleware = async (req, res, next) => {
   next()
 }
 
-app.get("/", homeController.list);
+//app.get("/", homeController.list);
 
-app.get("/logout", async (req, res) => {
+/*app.get("/logout", async (req, res) => {
   req.session.destroy();
   global.user = false;
   res.redirect('/');
-})
+})*/
 
 app.get("/create-training", authMiddleware, (req, res) => {
   res.render("create-training", { errors: {} });
@@ -92,15 +92,29 @@ app.get("/training/update/:id", trainingController.edit);
 app.post("/training/update/:id", trainingController.update);
 
 
-app.get("/create-record", recordsController.createView);
-app.post("/create-records", recordsController.create);
-app.get("/update-records/:id", recordsController.edit);
+app.get("/create-records", authMiddleware, (req, res) => {
+  res.render("create-records", { errors: {} });
+});
 
+app.post("/create-records", recordsController.create);
 
 app.get("/records", recordsController.list);
 app.get("/records/delete/:id", recordsController.delete);
+app.get("/records/update/:id", recordsController.edit);
+app.post("/records/update/:id", recordsController.update);
 
-app.get("/join", (req, res) => {
+app.get("/create-user", authMiddleware, (req, res) => {
+  res.render("create-user", { errors: {} });
+});
+
+app.post("/create-user", userController.create);
+
+app.get("/records", userController.list);
+app.get("/records/delete/:id", userController.delete);
+app.get("/records/update/:id", userController.edit);
+app.post("/records/update/:id", userController.update);
+
+/*app.get("/join", (req, res) => {
   res.render('create-user', { errors: {} })
 });
 
@@ -109,7 +123,7 @@ app.get("/login", (req, res) => {
   res.render('login-user', { errors: {} })
 });
 app.post("/login", userController.login);
-
+*/
 
 app.listen(PORT, () => {
   console.log(
