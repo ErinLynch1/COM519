@@ -1,4 +1,4 @@
-const Records = require('../models/Records');
+const Records = require('../models/.js');
 
 exports.list = async(req,res) => {
 

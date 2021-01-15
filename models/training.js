@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const trainingtype = require("./trainingtype");
+const trainingtype = require("./Trainingtype");
 const { Schema } = mongoose;
 
 const trainingSchema = new Schema(

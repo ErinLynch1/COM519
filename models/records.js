@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const trainingtype = require("./trainingtype");
 const { Schema } = mongoose;
 
 const recordsSchema = new Schema(
