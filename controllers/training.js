@@ -1,4 +1,4 @@
-const training = require("../models/Training");
+const Training = require("../models/Training");
 const bodyParser = require("body-parser");
 const { findById } = require("../models/Training");
 
@@ -6,7 +6,7 @@ exports.list = async(req,res) => {
 
     try 
     {
-    const training = training.find({});
+    const training = Training.find({});
     res.render("training",{training:training});
 
     }catch(e){
@@ -18,7 +18,7 @@ exports.list = async(req,res) => {
 exports.delete = async(req,res)=>{
     const id = req.params.id;
   try {
-    await training.findByIdAndRemove(id);
+    await Training.findByIdAndRemove(id);
     res.redirect("/training");
   } catch (e) {
     res.status(404).send({
@@ -31,7 +31,7 @@ exports.delete = async(req,res)=>{
 exports.create = async (req, res) => {
 
     try {
-      await training.create({ 
+      await Training.create({ 
         trainingname:req.body.trainingname,
         provider:req.body.provider,
         trainingtype: req.body.trainingtype,
