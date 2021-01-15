@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const chalk = require("chalk");
 const bodyParser = require("body-parser");
 const expressSession = require("express-session");
+const Training = require("./models/Training")
 
 
 const trainingCon = require('./controllers/training');
