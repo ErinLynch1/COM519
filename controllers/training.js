@@ -1,4 +1,6 @@
 const training = require("../models/Training");
+const bodyParser = require("body-parser");
+const { findById } = require("../models/Training");
 
 exports.list = async(req,res) => {
 
