@@ -1,10 +1,10 @@
-const Training = require("../models/Training");
+const training = require("../models/Training");
 
 exports.list = async(req,res) => {
 
     try 
     {
-    const training = Training.find({});
+    const training = training.find({});
     res.render("training",{training:training});
 
     }catch(e){
@@ -30,7 +30,7 @@ exports.create = async (req, res) => {
 
     try {
       const trainingtype = await trainingtype.findById(req.body.trainingtype_id)
-      await Training.create({ 
+      await training.create({ 
         trainingname:req.body.trainingname,
         provider:req.body.provider,
         trainingtype: req.body.trainingtype,
