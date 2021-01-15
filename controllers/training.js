@@ -1,5 +1,4 @@
 const Training = require("../models/Training");
-const TrainingType = require("../models/Trainingtype");
 
 exports.list = async(req,res) => {
 
@@ -34,7 +33,7 @@ exports.create = async (req, res) => {
       await Training.create({ 
         trainingname:req.body.trainingname,
         provider:req.body.provider,
-        trainingtype: trainingtype.type,
+        trainingtype: req.body.trainingtype,
         validforyear:req.body.validforyear,
         validformonth:req.body.validformonth
       })

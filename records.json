@@ -2,626 +2,385 @@
     {
         "Training": "Category B -  (Car/Van)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"04/04/2024",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"04/04/2024"
     },
     {
         "Training": "Category B+E - (Car/Van +Trailer)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"04/04/2024",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"04/04/2024"
     },
     {
         "Training": "Category C1 - (Vehicles ≤ 7500Kg)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"04/04/2024",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"04/04/2024"
     }, 
     {
         "Training": "Category C1+E",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"04/04/2024",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"04/04/2024"
     },
     {
         "Training": "HEA ECS Test",
         "Trainingtype": "Basic Site Safety",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"24/08/2020",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"24/08/2020"
     },
     {
         "Training": "Energy Utilities Skills Card",
         "Trainingtype": "Basic Site Safety",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
         "Validfrom":null,
-        "Validto":"31/03/2022",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"31/03/2022"
     },
     {
         "Training": "First Aid - Emergency (1 Day)",
         "Trainingtype": "Basic Site Safety",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
         "Validfrom":null,
-        "Validto":"14/10/2022",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"14/10/2022"
     },
     {
         "Training": "Moving & Handling Principles",
         "Trainingtype": "Basic Site Safety",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
         "Validfrom":null,
-        "Validto":"27/11/2020",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"27/11/2020"
     },
     {
         "Training": "Asbestos Awareness",
         "Trainingtype": "Basic Site Safety",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
         "Validfrom":null,
-        "Validto":"13/12/2018",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"13/12/2018"
     },
     {
         "Training": "IPAF Vehicle Mounted Platform",
         "Trainingtype": "Work at Height",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
         "Validfrom":null,
-        "Validto":"30/06/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"30/06/2023"
     },
     {
         "Training": "IPAF Scissor Lift (3a)",
         "Trainingtype": "Work at Height",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"30/06/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"30/06/2023"
     },
     {
         "Training": "IPAf Harness Inspection (H)",
         "Trainingtype": "Work at Height",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"30/06/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"30/06/2023"
     },
     {
         "Training": "Step & Ladder",
         "Trainingtype": "Work at Height",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"07/02/2019",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"07/02/2019"
     },
     {
         "Training": "Abbrassive Wheels",
         "Trainingtype": "Plant Operations",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"31/05/2019",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"31/05/2019"
     },
     {
         "Training": "NRSWA Unit 1 Location of Underground App.",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "NRSWA Unit 10 Monitoring SLG",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "NRSWA Unit 11 Monitoring Excavation",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "NRSWA Unit 12 Monitoring Backfill",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "NRSWA Unit 13 Monitoring Sub & Road Base",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "NRSWA Unit 14 Monitoring Bitumous Mats",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "NRSWA Unit 16 Monitoring Modular Footways",
         "Trainingtype": "Highways and Utilities Work",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "Electrical C&G 236 /2330",
         "Trainingtype": "Electrical Competence",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":"01/07/1992",
-        "Validto":null,
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":null
     },
     {
         "Training": "Elec  C&G 2391 /",
         "Trainingtype": "Electrical Competence",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":"01/12/1996",
-        "Validto":null,
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":null
     },
     {
         "Training": "Electrical  C&G 2400",
         "Trainingtype": "Electrical Competence",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":"01/12/1996",
-        "Validto":null,
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":null
     },
     {
         "Training": "Elect C&G 2380/403",
         "Trainingtype": "Electrical Competence",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":"01/12/2008",
-        "Validto":null,
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":null
     },
     {
         "Training": "AM2",
         "Trainingtype": "Electrical Competence",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":"01/06/92",
-        "Validto":null,
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":null
     },
     {
         "Training": "Course 210 - G39",
         "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/12/22",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/12/22"
     },
     {
         "Training": "Course 214- Safe Isolation",
         "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/12/2022",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/12/2022"
     },
     {
         "Training": "Course 302.1 Traffic Management",
         "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/01/23",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/01/23"
     }, 
     {
         "Training": "Course 302.1 Traffic Management",
         "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/01/23",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/01/23"
     },
     {
         "Training": "Course 302.1 Traffic Management",
         "Trainingtype": "Highway Electrical Sector Academy Qualifications (HESA)",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/01/23",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/01/23"
     },
     {
         "Training": "Found 01- Basic Health & Saftey",
         "Trainingtype": "Highway Electrical Registration Scheme Site Assessments",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/11/2020",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/11/2020"
     },
     {
         "Training": "Found 07 - Working in the Vicinity of DNO  Equipment",
         "Trainingtype": "Highway Electrical Registration Scheme Site Assessments",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/07/2021",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/07/2021"
     },
     {
         "Training": "Basic Electrical Awareness",
         "Trainingtype": "NERS General & Specific Competencies",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/03/2022",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/03/2022"
     },
     {
         "Training": "Manual Handling",
         "Trainingtype": "NERS General & Specific Competencies",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/11/2020",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/11/2020"
     },
     {
         "Training": "Emergency First Aid",
         "Trainingtype": "NERS General & Specific Competencies",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/10/2022",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/10/2022"
     },
     {
         "Training": "PTTLLS  Trained",
         "Trainingtype": "Training & Assessment",
-        "Provider": "",
-        "email":"justin@utili-light.co.uk",
         "first_name": "Justin",
         "last_name":"Wright",
-        
         "Validfrom":"01/12/13",
-        "Validto":null,
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":null
     },
     {
         "Training": "Category B -  (Car/Van)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Category B+E - (Car/Van +Trailer)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Category C1 - (Vehicles ≤ 7500Kg)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Category C1+E",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Category C - (Rigid HGV)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Category C+E - (Articulated HGV)",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Drivers Tacho Card",
         "Trainingtype": "Driving License",
-        "Provider": "DVLA",
-        "email":"ian@utili-light.co.uk",
         "first_name": "Ian",
         "last_name":"Tidbury",
-        
         "Validfrom":null,
-        "Validto":"26/02/2023",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"26/02/2023"
     },
     {
         "Training": "Category B -  (Car/Van)",
         "TrainingtypeID":"Driving License",
-        "Provider": "DVLA",
-        "email":"richard@utili-light.co.uk",
         "first_name": "Richard",
         "last_name":"Bloor",
-        
         "Validfrom":null,
-        "Validto":"14/05/2024",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"14/05/2024"
     },
-
-
     {
         "Training": "Category B -  (Car/Van)",
         "TrainingtypeID":"Driving License",
-        "Provider": "DVLA",
-        "email":"robert@utili-light.co.uk",
         "first_name": "Robert",
         "last_name":"McDermott",
-        
         "Validfrom":null,
-        "Validto":"19/05/2027",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"19/05/2027"
     },
-
-
     {
         "Training": "Category B -  (Car/Van)",
         "TrainingtypeID":"Driving License",
-        "Provider": "DVLA",
-        "email":"michelle@utili-light.co.uk",
         "first_name": "Michelle",
-        "last_name":"Gates",
-        
+        "last_name":"Gates",       
         "Validfrom":null,
-        "Validto":"15/01/2020",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"15/01/2020"
     },
-
-
     {
         "Training": "Category B -  (Car/Van)",
         "TrainingtypeID":"Driving License",
-        "Provider": "DVLA",
-        "email":"clare@utili-light.co.uk",
         "first_name": "Clare",
         "last_name":"Wright",
-        
         "Validfrom":null,
-        "Validto":"01/03/2027",
-        "Validforyear":"10",
-        "Validformonth":null
+        "Validto":"01/03/2027"
     }
 ]

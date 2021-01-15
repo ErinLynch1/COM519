@@ -3,8 +3,10 @@ const { Schema } = mongoose;
 
 const recordsSchema = new Schema(
   {
-    name:{type:String, required:[true,'Name is required']},
+    firstname:{type:String, required:[true,'First Name is required']},
+    lastname:{type:String,required:[true,'Last Name is required']},
     training:{type:String,required:[true,'Training is required']},
+    trainingtype:{type:String,required:[true,'Trainingtype is required']},
     validfromdate: {type:Date},
     validtodate: {type:Date},
     name_id:{
