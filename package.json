@@ -2,9 +2,10 @@
   "name": "COM519",
   "version": "1.0.0",
   "description": "# Link to your hosted web application. -  # Link to your hosted Git Repository  - https://github.com/ErinLynch1/COM519",
+  "main":"index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
+    "dev": "nodemon app.js",
     "start": "node app.js"
   },
   "engines": {
