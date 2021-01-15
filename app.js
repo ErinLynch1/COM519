@@ -11,10 +11,10 @@ const expressSession = require("express-session");
 /**
  * Controllers (route handlers).
  */
-const trainingController = require('./controllers/training');
-const recordsController = require('./controllers/records');
+const trainingCon = require('./controllers/training');
+const recordsCon= require('./controllers/records');
 //const homeController = require("./controllers/home");
-const userController = require('./controllers/user');
+const userCon = require('./controllers/user');
 
 const app = express();
 app.set("view engine", "ejs");
@@ -84,35 +84,35 @@ app.get("/create-training", authMiddleware, (req, res) => {
   res.render("create-training", { errors: {} });
 });
 
-app.post("/create-training", trainingController.create);
+app.post("/create-training", trainingCon.create);
 
-app.get("/training", trainingController.list);
-app.get("/training/delete/:id", trainingController.delete);
-app.get("/training/update/:id", trainingController.edit);
-app.post("/training/update/:id", trainingController.update);
+app.get("/training", trainingCon.list);
+app.get("/training/delete/:id", trainingCon.delete);
+app.get("/training/update/:id", trainingCon.edit);
+app.post("/training/update/:id", trainingCon.update);
 
 
 app.get("/create-records", authMiddleware, (req, res) => {
   res.render("create-records", { errors: {} });
 });
 
-app.post("/create-records", recordsController.create);
+app.post("/create-records", recordsCon.create);
 
-app.get("/records", recordsController.list);
-app.get("/records/delete/:id", recordsController.delete);
-app.get("/records/update/:id", recordsController.edit);
-app.post("/records/update/:id", recordsController.update);
+app.get("/records", recordsCon.list);
+app.get("/records/delete/:id", recordsCon.delete);
+app.get("/records/update/:id", recordsCon.edit);
+app.post("/records/update/:id", recordsCon.update);
 
 app.get("/create-user", authMiddleware, (req, res) => {
   res.render("create-user", { errors: {} });
 });
 
-app.post("/create-user", userController.create);
+app.post("/create-user", userCon.create);
 
-app.get("/records", userController.list);
-app.get("/records/delete/:id", userController.delete);
-app.get("/records/update/:id", userController.edit);
-app.post("/records/update/:id", userController.update);
+app.get("/records", userCon.list);
+app.get("/records/delete/:id", userCon.delete);
+app.get("/records/update/:id", userCon.edit);
+app.post("/records/update/:id", userCon.update);
 
 /*app.get("/join", (req, res) => {
   res.render('create-user', { errors: {} })
