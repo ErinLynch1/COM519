@@ -9,14 +9,6 @@ const recordsSchema = new Schema(
     trainingtype:{type:String,required:[true,'Trainingtype is required']},
     validfromdate: {type:Date},
     validtodate: {type:Date},
-    name_id:{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "user"
-    },
-    training_id:{
-        type: mongoose.Schema.Types.ObjectId,
-        ref:"training"
-    }
   },
   { timestamps: true }
 );

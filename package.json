@@ -3,25 +3,32 @@
   "version": "1.0.0",
   "description": "# Link to your hosted web application. -  # Link to your hosted Git Repository  - https://github.com/ErinLynch1/COM519",
   "main":"index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
     "start": "node app.js"
   },
+
   "engines": {
     "node": "14.x"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ErinLynch1/COM519.git"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/ErinLynch1/COM519/issues"
   },
+
   "homepage": "https://github.com/ErinLynch1/COM519#readme",
+
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
@@ -35,6 +42,7 @@
     "md5": "^2.3.0",
     "mongodb": "^3.6.2"
   },
+
   "devDependencies": {
     "nodemon": "^2.0.7"
   }

@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const trainingtype = require("./Trainingtype");
 const { Schema } = mongoose;
 
 const trainingSchema = new Schema(
@@ -9,11 +8,6 @@ const trainingSchema = new Schema(
     trainingtype:String, 
     validforyear:{type:Number,default:0},
     validformonth:{type:Number,default:0},
-
-    trainingtype_id: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Training Type"
-    },
   },
   { timestamps: true }
 );
