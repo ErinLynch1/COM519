@@ -1,5 +1,5 @@
-const Training = require('../models/Training');
-const TrainingType = require('../models/Trainingtype')
+const Training = require("../models/Training");
+const TrainingType = require("../models/Trainingtype");
 
 exports.list = async(req,res) => {
 
